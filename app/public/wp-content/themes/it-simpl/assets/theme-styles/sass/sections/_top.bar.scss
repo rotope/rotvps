@@ -1,0 +1,72 @@
+//Social Icons in Top Bat Styling
+#itsmpl-top-bar {
+	padding: 0.4em 0;
+	color: white;
+	#itsmpl-phone {
+		font-weight: 600;
+		color: #fff;
+	}
+	#top-navigation {
+		position: relative;
+		button {
+			@extend %tertiary-btn;
+			border-radius: 3px;
+		}
+		@media (min-width: 1025px) {
+			button {
+				display: none;
+			}
+			a {
+				color: #fff;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				li {
+					float: left;
+					margin: auto 0.5em;
+
+				}
+			}
+		}
+		@media (max-width: 1024px) {
+			&.toggled {
+				ul, .jumper {
+					display: block;
+					border-radius: 3px;
+					width: 100%;
+					font-size: 1em;
+				}
+			}
+			.jumper {
+				display: none;
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+			ul {
+				display: none;
+				list-style: none;
+				margin: 0;
+				position: absolute;
+				background-color: #eee;
+				top: 100%;
+				z-index: 99;
+				min-width: 120px;
+				left: 0;
+				right: 0;
+				box-shadow: $shadow3;
+				li {
+					margin: 0;
+					padding: 0.4em 0.8em;
+					&:hover {
+						background-color: rgba(0,0,0,0.05);
+					}
+				}
+			}
+		}
+		a {
+			font-size: 0.9em;
+		}
+	}
+}

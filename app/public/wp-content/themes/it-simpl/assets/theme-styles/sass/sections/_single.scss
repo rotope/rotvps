@@ -1,0 +1,111 @@
+/**
+ *	Styling for Single Post Page
+ */
+
+body.single {
+	#primary {
+		h1.entry-title {
+			font-weight: 600;
+		}
+		.entry-meta {
+			a {
+				color: var(--primary);
+				font-weight: 600;
+				font-size: 0.8em;
+				margin: auto 0.8em;
+				text-transform: uppercase;
+			}
+		}
+		.entry-content {
+			margin-bottom: 1em;
+			padding-bottom: 1em;
+			border-bottom: solid 1px #eee;
+		}
+		.entry-footer {
+			margin-bottom: 2em;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			font-weight: 600;
+			i {
+				line-height: 1.8em;
+				padding: 0em 0.8em;
+				margin-right: 0.5em;
+				border-radius: 1em;
+				background-color: #f1f1f1;
+				color: #ccc;
+			}
+			a {
+				color: var(--primary);
+			}
+			& > * {
+				margin-bottom: 1em;
+			}
+		}
+		.itsmpl-related-posts {
+			.entry-title {
+				font-size: 1.4em;
+				margin-top: 0.25em;
+			}
+			.entry-meta {
+				margin-bottom: 0.5em;
+				&:after {
+					display: none;
+				}
+				a {
+					@extend %regular;;
+					color: #777;
+				}
+			}
+		}
+		.nav-links {
+			width: 100%;
+			border: solid 1px #eee;
+			padding: 0.8em 1.2em;
+			margin-bottom: 2em;
+			font-style: italic;
+			overflow: hidden;
+			& > * {
+				display: inline-block;
+				max-width: 50%;
+			}
+			.nav-previous {
+				float: left;
+				display: flex;
+				flex-direction: column;
+				&:before {
+					content: 'Previous Post';
+					width: 100%;
+					font-size: 0.85em;
+					color: #bbb;
+				}
+			}
+			.nav-next {
+				float: right;
+				display: flex;
+				flex-direction: column;
+				&:before {
+					content: 'Next Post';
+					width: 100%;
+					font-size: 0.85em;
+					color: #bbb;
+				}
+			}
+			a {
+				color: var(--primary);
+			}
+		}
+		#author_box {
+			border: solid 1px #ddd;
+			padding: 1em;
+			@media (max-width: 767px) {
+				text-align: center;
+			}
+			.author_avatar {
+				margin-bottom: 0.25em;
+			}
+			.author_name {
+				margin-top: 0;
+			}
+		}
+	}
+}

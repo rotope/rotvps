@@ -1,0 +1,34 @@
+/**
+ *  Styling for Showcase
+ */
+
+ #itsmpl-showcase {
+     h2 {
+         display: block;
+         position: relative;
+         text-align: center;
+         padding-bottom: 0.4em;
+         margin-bottom: 0.75em;
+         &:before {
+             content: "";
+             position: absolute;
+             top: 100%;
+             width: 100px;
+             height: 4px;
+             background-color: var(--secondary);
+             left: 0;
+             right: 0;
+             margin: auto;
+         }
+     }
+     h3 {
+         text-align: center;
+         font-weight: 400;
+         font-size: 1.2em;
+     }
+     figure {
+         border-bottom: solid 1px #ddd;
+         padding-bottom: 1em;
+         position: relative;
+     }
+ }

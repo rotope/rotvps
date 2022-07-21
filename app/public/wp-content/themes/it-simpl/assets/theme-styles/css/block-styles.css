@@ -1,0 +1,33 @@
+:root {
+  --primary: #122e73;
+  --secondary: #ffc816;
+  --tertiary: #F4AC45;
+}
+
+.is-style-widget-title {
+  font-weight: 700;
+}
+
+@keyframes tabActive {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.is-style-widget-title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.7em;
+}
+.is-style-widget-title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: var(--secondary);
+}

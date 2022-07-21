@@ -1,0 +1,239 @@
+/**
+ *	Style for Navigation Drawer
+ */
+
+.main-navigation {
+	width: auto;
+	@extend %heading-font;
+	a {
+		color: white;
+		padding: 0.5em 0.8em;
+	}
+	@media (max-width: 1024px) {
+		display: none;
+	}
+	@media (min-width: 1025px) {
+		text-align: right;
+		ul#menu-desktop {
+			display: inline-block;
+			font-size: 0.9em;
+			text-transform: uppercase;
+			float: right;
+			& > li {
+				margin: 0;
+				float: left;
+				&.menu-item-has-children > a, &.page_item_has_children > a {
+					&:after {
+						position: relative;
+						content: "\f107";
+						font-family: "FontAwesome";
+						padding-left: 10px;
+					}
+				}
+				& > a {
+					padding-top: 0.6em;
+					padding-bottom: 0.6em;
+					color: white;
+				}
+			}
+			li:hover {
+				background-color: rgba(0,0,0,0.1);
+			}
+			ul {
+				flex-direction: column;
+                text-align: left;
+                border-radius: 5px;
+				opacity: 0;
+				text-transform: none;
+				background-color: var(--secondary);
+				@include transform(translateY(-15px));
+				@include transition( opacity 300ms $standard, transform 300ms $decelerate );
+                box-shadow: $shadow3;
+                a {
+                    color: black;
+                }
+
+				li {
+					float: none;
+					display: block;
+					position: relative;
+					margin: 0;
+					&.menu-item-has-children  > a:after, &.page_item_has_children  > a:after {
+						position: relative;
+						content: "\f105";
+						font-family: "FontAwesome";
+						float: right;
+					}
+					&:hover > ul, &:focus-within > ul {
+						left: 100%;
+						@include transform(translateY(0px));
+					}
+				}
+			}
+			li:hover > ul, li:focus-within > ul {
+				opacity: 1;
+				left: auto;
+				@include transform( translateY(0px) );
+			}
+		}
+	}
+}
+
+.mobile-nav-btn {
+	border: 0;
+	background: none;
+	color: white;
+    svg {
+        width: 32px;
+    }
+	@media (min-width: 1025px) {
+		display: none;
+	}
+}
+
+
+#panel-top-bar {
+	overflow: auto;
+	position: relative;
+	background-color: rgba(255,255,255,0.05);
+	.menu-link {
+		float: left;
+		border: 0;
+		border-radius: 0;
+		font-size: 1.4em;
+		padding: 0.4em 0.8em;
+		background-color: rgba(255,255,255,0.1);
+		color: white;
+	}
+}
+
+button.go-to-top, button.go-to-bottom {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+#menu {
+	z-index: 999;
+	text-align: left;
+	overflow-y: auto;
+	background-color: var(--primary);
+    text-transform: uppercase;
+	.menu-overlay {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,.14);
+		z-index: 0;
+		display: none;
+	}
+	.go-to-top {
+		background: none;
+		float: left;
+		border: 0;
+		i {
+			color: white;
+	  	}
+	}
+	.go-to-bottom {
+		background: none;
+		float: right;
+		border: 0;
+		i {
+			color: white;
+		}
+	}
+	ul {
+		margin-left: 0px;
+		padding: 0px;
+		width: 100%;
+	    li {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			position: relative;
+			&:before {
+				display: none;
+			}
+		    a {
+		        display: block;
+		        color: white;
+		        padding: 0.5em 0.8em;
+		        width: 100%;
+		        overflow: hidden;
+		        white-space: nowrap;
+		        text-overflow: ellipsis;
+		    }
+	    }
+	    li.menu-item-has-children {
+	        display: block;
+	        span.dropdown-arrow {
+	            position: absolute;
+	            height: 44px;
+	            width: 44px;
+	            top: 0;
+	            right: 0;
+	            display: flex;
+	            justify-content: center;
+	            align-content: center;
+	            background: rgba(255,255,255,.1);
+	            cursor: pointer;
+	            i {
+	                margin: auto;
+	                color: white;
+	                font-weight: 600;
+	                font-size: 20px;
+	            }
+	        }
+	        ul {
+		        background: rgba(255,255,255, 0.1);
+
+	        }
+	    }
+	}
+	.nav-social-bar {
+		position: relative;
+		#itsmpl-social {
+			padding: 0;
+		}
+		button {
+			background-color: transparent;
+			border: 0;
+			color: #fff;
+			i {
+				font-size: 1.25em;
+			}
+		}
+	}
+    .itsmpl-search-main {
+        width: 100%;
+        label, input[type="text"] {
+            width: 100%;
+        }
+    }
+}
+
+body {
+	#sticky-navigation {
+		width: 100%;
+		position: fixed;
+		top: 0;
+        padding: 0.8em 0;
+        background-color: var(--primary);
+		@include transition(all 300ms ease-out);
+		@include transform(translateY(-100%));
+		z-index: 9;
+		.itsmpl-search {
+			bottom: unset;
+			top: 100%;
+			z-index: 9;
+		}
+        .search-btn-sticky {
+            @media (max-width: 1024px) {
+                display: none;
+            }
+        }
+	}
+}

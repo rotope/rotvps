@@ -1,0 +1,91 @@
+.main-banner-section, .about-box{
+  width: auto;
+  height: auto;
+}
+.about-box .wp-block-buttons.alignright{
+  border: none !important;
+}
+/*Banner section*/
+.main-banner-section h1, .main-banner-section p{
+  color: #fff !important;
+}
+.main-banner-section h1, .about-box h2{
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.main-banner-section p, .about-box p{
+  letter-spacing: 0px;
+}
+.main-banner-section a.wp-block-button__link{
+  color: #fff !important;
+  border: solid 2px #fff !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.main-banner-section a.wp-block-button__link:hover{
+  background: #fff !important;
+  color: #927ae9 !important;
+  border: solid 2px #fff !important;
+}
+/*About section*/
+.about-box h2{
+  position: relative;
+  padding-top: 10px !important;
+}
+.about-box h2:before{
+  content: "";
+  border-top: solid 3px #927ae9;
+  position: absolute;
+  width: 15%;
+  right: 0%;
+  top: 0;
+}
+.about-box p.about-content{
+  position: relative;
+}
+.about-box p.about-content:after{
+  content: "";
+  border-bottom: solid 3px #927ae9;
+  position: absolute;
+  right: 0%;
+  width: 15%;
+  margin-top: 30px;
+}
+.about-box h3{
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.about-box a.wp-block-button__link, .about-box a.wp-block-button__link:hover{
+  border: none !important;
+  background: none !important;
+  color: #344151!important;
+  text-decoration: none;
+}
+.about-box a.wp-block-button__link:after{
+  content: "\f105";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #344151;
+  margin-left: 10px;
+}
+.about-box figure{
+  background: rgba(145, 121, 233, 1);
+}
+.about-box img {
+  opacity: 0.5;
+}
+@media screen and (max-width:992px) {
+  .main-banner-section .wp-block-columns.alignwide {
+    margin: 0;
+  }
+  .main-banner-section h1{
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .main-banner-section .wp-block-column.is-vertically-aligned-center:nth-child(2) {
+    flex-basis: 100% !important;
+    margin-left: 0 !important;
+  }
+}

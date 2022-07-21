@@ -1,0 +1,115 @@
+/**
+ *	Styling the Header of the site
+ */
+#masthead {
+	position: relative;
+	font-size: 1rem;
+	background-color: var(--primary);
+	min-height: 500px;
+	margin-bottom: 2em;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(18, 46, 115, 0.7);
+	}
+}
+.nav-wrapper {
+	position: relative;
+	padding: 0.5em 0;
+	@media (min-width: 992px) {
+		padding: 0;
+	}
+	& > * {
+		position: relative;
+	}
+	button {
+		background: none;
+		border: 0;
+		font-size: 1.2em;
+		color: white;
+	}
+}
+
+#itsmpl-title-bar {
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	border-top: solid 2px rgba(255,255,255,0.1);
+}
+
+.site-branding {
+	position: relative;
+	@media (max-width: 767px) {
+		margin-bottom: 0.5em;
+	}
+	.site-title {
+		margin: 0;
+	}
+	.site-description {
+		margin-bottom: 0;
+	}
+	img.custom-logo {
+		max-width: 250px;
+		width: auto;
+	}
+}
+
+#itsmpl-hero {
+	position: absolute;
+	width: 100%;
+	bottom: 20%;
+	color: white;
+	@extend %bold;
+}
+
+.itsmpl-hero-text {
+	color: var(--secondary);
+	@media (max-width: 767px) {
+		font-size: 2.4em;
+	}
+}
+
+.itsmpl-scroll-down {
+	position: absolute;
+	bottom: -28px;
+	right: 5vh;
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+	a.itsmpl-scroll-btn  {
+		position: relative;
+		height:56px;
+		width: 56px;
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		&:focus {
+			outline: 0;
+		}
+		i {
+			font-size: 40px;
+		}
+/*
+		&:before {
+			z-index: -1;
+			content: "";
+			position: absolute;
+			width: 54px;
+			height: 54px;
+			border-radius: 50%;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+			background-color: #fff;
+			left: calc(50% - 32px);
+			top: calc(50% - 21px);
+		}
+*/
+	}
+}

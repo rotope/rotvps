@@ -1,0 +1,39 @@
+/**
+ *	Add Footer Styling
+ */
+
+#footer-sidebar {
+	position: relative;
+	background-color: #222;
+	padding: 3em 0;
+	border-top: solid 5px var(--secondary);
+	.widget {
+		background-color: rgba(255,255,255, 1);
+		color: #555;
+		padding: 1.5em;
+		border-radius: 3px;
+		border: solid 2px var(--secondary);
+		h4.widget-title {
+			margin-top: 0;
+			color: #000;
+		}
+		a {
+			color: var(--primary);
+		}
+		li:before {
+			color: var(--primary);
+		}
+	}
+}
+
+#colophon {
+	background-color: var(--primary);
+	@extend %heading-font;
+	color: white;
+	text-align: center;
+	padding: 10px 0 20px;
+	a {
+		font-weight: 600;
+		color: #fff;
+	}
+}

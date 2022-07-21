@@ -1,0 +1,117 @@
+/**
+ *	Styling for the widget section of the theme
+ */
+
+.widget {
+	.widget-area:not(#header-widget-wrapper) & {
+		margin-bottom: 3em;
+	}
+	.widget-title {
+		margin-bottom: 0;
+		span {
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			margin-top: 0;
+			margin-bottom: 0.5em;
+			padding-bottom: 0.7em;
+			&:before {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 80px;
+				height: 4px;
+				background-color: var(--secondary);
+			}
+			@extend %bold;
+			#itsmpl-before-content & {
+				text-align: center;
+			}
+		}
+	}
+	&.widget_search {
+		label {
+			margin: 0;
+			width: 100%;
+		}
+		input[type="search"] {
+			border: solid 1px alpha(black, -0.92);
+			width: 100%;
+			padding: .3em .5em;
+		}
+		input[type="submit"], button[type="submit"] {
+			display: none;
+		}
+	}
+
+	&.widget_itsmpl_recent_posts {
+		overflow: auto;
+		.itsmpl-widget-post {
+			margin-bottom: 0.8em;
+		}
+		.itsmpl-widget-post-thumb {
+			overflow: hidden;
+		}
+
+		.itsmpl-widget-post-title {
+			padding-left: .75em;
+			line-height: 1.5;
+			.itsmpl-widget-post-link {
+				display: block;
+				color: var(--primary);
+			}
+			@media screen and (min-width: 768px) {
+				margin-top: 0;
+			}
+
+			.recent-date {
+				font-size: .75em;
+				color: #888;
+			}
+		}
+	}
+	&.widget_itsmpl_featured_cat {
+		@extend .widget_itsmpl_recent_posts;
+	}
+	ul.sub-menu, ul.children {
+		margin-left: 0.6em;
+		li {
+			margin: 0.36em auto;
+		}
+	}
+	ul {
+		margin-left: 0;
+		list-style: none;
+		@extend %heading-font;
+		color: #555;
+		li:first-child {
+			margin-top: 0;
+		}
+		li {
+			margin-bottom: 1em;
+			position: relative;
+			line-height: 1.5em;
+			a {
+				color: var(--primary);
+				@include transition(color 100ms $standard);
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&.widget_recent_comments {
+		ol {
+			color: #888888;
+			li {
+				a {
+					color: var(--primary);
+				}
+			}
+		}
+	}
+}

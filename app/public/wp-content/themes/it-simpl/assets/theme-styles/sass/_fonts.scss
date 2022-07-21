@@ -1,0 +1,19 @@
+
+$title-font: "Spline Sans", sans-serif;
+$body-font: "Spline Sans", sans-serif;
+
+%heading-font {
+	font-family: $title-font;
+}
+
+%body-font {
+	font-family: $body-font;
+}
+
+%regular {
+	font-weight: 400;
+}
+
+%bold {
+	font-weight: 700;
+}

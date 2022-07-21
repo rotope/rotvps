@@ -1,0 +1,81 @@
+/**
+ *	Style for the search Functionality
+ */
+
+.search-btn-main {
+	#masthead & {
+		@media ( max-width: 1024px ) {
+			display: none;
+		}
+	}
+}
+[class^="itsmpl-search"] {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	@include transition( all 100ms ease-in-out );
+	z-index: 999;
+	box-shadow: $shadow4;
+	border-radius: 5px;
+	form {
+		position: relative;
+		top: 2px;
+		background-color: var(--secondary);
+
+		label {
+			height: 60px;
+			display: flex;
+			align-items: center;
+			margin: 0;
+			input[type="search"] {
+				position: relative;
+				height: 100%;
+				background-color: transparent;
+				padding: 0.5em;
+				border: 0;
+				color: black;
+				font-weight: 600;
+				outline: none;
+				&::placeholder {
+					color: rgba(0,0,0,0.4);
+				}
+				&:focus-visible {
+					outline-color: transparent;
+				}
+
+			}
+		}
+		input[type="submit"] {
+			display: none;
+		}
+	}
+	button {
+		@extend #go-to-field;
+	}
+}
+
+@keyframes ripple {
+  to {
+    @include transform(scale(1));
+    opacity: 0;
+  }
+}
+
+#go-to-field {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute;
+}
+
+span.ripple {
+	position: absolute;
+	height: 1000px;
+	width: 1000px;
+	border-radius: 50%;
+	@include transform(scale(0));
+	transform-origin: center center;
+	animation: ripple 600ms cubic-bezier(0.4, 0.0, 0.2, 1);;
+	background-color: rgba(255, 255, 255, 0.7);
+}
