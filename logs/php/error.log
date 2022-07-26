@@ -71,3 +71,4 @@ Stack trace:
 #4 C:\Users\Usuario\Local Sites\rotvps\app\public\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
 #5 C:\Users\Usuario\Local Sites\rotvps\app\public\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
 #6 C:\Users\Usuario\Local Sites\rotv in C:\Users\Usuario\Local Sites\rotvps\app\public\wp-content\plugins\royal-elementor-addons\admin\includes\wpr-render-templates.php on line 201
+[26-Jul-2022 10:43:06 UTC] missing file C:\Users\Usuario\Local Sites\rotvps\app\public\wp-content\plugins\complianz-gdpr/cookiebanner/css/positions/.css

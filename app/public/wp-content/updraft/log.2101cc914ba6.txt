@@ -1,0 +1,302 @@
+0000.001 (0) Opened log file at time: Tue, 26 Jul 2022 09:57:25 +0000 on http://rotvps.local
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 7.4.1 (cgi-fcgi, Windows NT DESKTOP-BAKLRDF 10.0 build 19044 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 177747.6 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.026 (0) Semaphore (fd, wp_options) being initialised
+0000.038 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (fd) time to 2022-07-26 09:57:25
+0000.053 (0) Semaphore lock (fd) complete
+0000.065 (0) Backup run: resumption=0, nonce=2101cc914ba6, file_nonce=2101cc914ba6 begun at=1658829445 (0s ago), job type=backup
+0000.072 (0) Scheduling a resumption (1) after 300 seconds (1658829745) in case this run gets aborted
+0000.094 (0) Checking if we have a zip executable available
+0000.100 (0) Creation of backups of directories: beginning
+0000.114 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.370 (0) Total entities for the zip file: 854 directories, 4074 files (0 skipped as non-modified), 71.9 MB
+0002.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.1 MB, 75 (75) files added so far); re-opening (prior size: 0 KB)
+0003.588 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 100 files added (on-disk size: 703.8 KB)
+0005.435 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 200 files added (on-disk size: 703.8 KB)
+0006.000 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.2 MB, 156 (231) files added so far); re-opening (prior size: 703.8 KB)
+0007.505 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 300 files added (on-disk size: 2722.3 KB)
+0008.654 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 400 files added (on-disk size: 2722.3 KB)
+0008.989 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.3 MB, 230 (461) files added so far); re-opening (prior size: 2722.3 KB)
+0010.376 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 500 files added (on-disk size: 6443.9 KB)
+0011.512 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 600 files added (on-disk size: 6443.9 KB)
+0013.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 208 (669) files added so far); re-opening (prior size: 6443.9 KB)
+0013.451 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 700 files added (on-disk size: 6762.3 KB)
+0015.598 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 800 files added (on-disk size: 6762.3 KB)
+0015.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 153 (822) files added so far); re-opening (prior size: 6762.3 KB)
+0016.440 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 900 files added (on-disk size: 7104.9 KB)
+0016.526 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1000 files added (on-disk size: 7104.9 KB)
+0016.611 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1100 files added (on-disk size: 7104.9 KB)
+0016.705 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1200 files added (on-disk size: 7104.9 KB)
+0016.791 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1300 files added (on-disk size: 7104.9 KB)
+0016.855 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1400 files added (on-disk size: 7104.9 KB)
+0016.918 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1500 files added (on-disk size: 7104.9 KB)
+0016.979 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.3 MB, 4074 files batched, 774 (1596) added so far); re-opening (prior size: 7104.9 KB)
+0019.292 (0) A useful amount of data was added after this amount of zip processing: 3.3 s (normalised: 3.3 s, rate: 7838.4 KB/s)
+0019.300 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.3027698993683, normalised_time=3.2659783068904, max_time=19.295089006424, data points known=1, old_max_bytes=26214400, new_max_bytes=92923308)
+0019.333 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1600 files added (on-disk size: 14447.7 KB)
+0019.394 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1700 files added (on-disk size: 14447.7 KB)
+0019.455 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1800 files added (on-disk size: 14447.7 KB)
+0019.517 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 1900 files added (on-disk size: 14447.7 KB)
+0019.580 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2000 files added (on-disk size: 14447.7 KB)
+0019.641 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2100 files added (on-disk size: 14447.7 KB)
+0019.703 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2200 files added (on-disk size: 14447.7 KB)
+0019.763 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2300 files added (on-disk size: 14447.7 KB)
+0019.829 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2400 files added (on-disk size: 14447.7 KB)
+0019.894 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2500 files added (on-disk size: 14447.7 KB)
+0019.960 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9 MB, 4074 files batched, 1001 (2597) added so far); re-opening (prior size: 14447.7 KB)
+0021.265 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2600 files added (on-disk size: 17072.5 KB)
+0021.326 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2700 files added (on-disk size: 17072.5 KB)
+0021.386 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2800 files added (on-disk size: 17072.5 KB)
+0021.574 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 2900 files added (on-disk size: 17072.5 KB)
+0021.638 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3000 files added (on-disk size: 17072.5 KB)
+0021.700 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3100 files added (on-disk size: 17072.5 KB)
+0021.765 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3200 files added (on-disk size: 17072.5 KB)
+0021.830 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3300 files added (on-disk size: 17072.5 KB)
+0021.895 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3400 files added (on-disk size: 17072.5 KB)
+0021.961 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3500 files added (on-disk size: 17072.5 KB)
+0022.038 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.8 MB, 4074 files batched, 1001 (3598) added so far); re-opening (prior size: 17072.5 KB)
+0023.952 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3600 files added (on-disk size: 20263.2 KB)
+0024.024 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3700 files added (on-disk size: 20263.2 KB)
+0024.091 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3800 files added (on-disk size: 20263.2 KB)
+0024.157 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 3900 files added (on-disk size: 20263.2 KB)
+0024.219 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.tmp: 4000 files added (on-disk size: 20263.2 KB)
+0024.798 (0) Creating zip file manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.list-temp.tmp)
+0024.837 (0) Successfully created zip file manifest (size: 334829)
+0025.168 (0) Created plugins zip (0) - 20861 KB in 25 s (832.9 KB/s) (sha1: 18ed7a4c28512c31857fe9b82da6700f96af23f3, sha256: d518036dfad5a1a371bc191d8dfb5c8326ecf0307d6ccada20ddc58e587db7ba)
+0025.178 (0) Beginning creation of dump of themes (split every: 400 MB)
+0027.671 (0) Total entities for the zip file: 742 directories, 4045 files (0 skipped as non-modified), 83.8 MB
+0027.995 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 38 (38) files added so far); re-opening (prior size: 0 KB)
+0028.637 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 100 files added (on-disk size: 230.6 KB)
+0030.077 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 200 files added (on-disk size: 230.6 KB)
+0030.994 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.6 MB, 193 (231) files added so far); re-opening (prior size: 230.6 KB)
+0032.772 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 300 files added (on-disk size: 1780.9 KB)
+0034.002 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 134 (365) files added so far); re-opening (prior size: 1780.9 KB)
+0035.373 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 400 files added (on-disk size: 1973 KB)
+0036.998 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 113 (478) files added so far); re-opening (prior size: 1973 KB)
+0037.357 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 500 files added (on-disk size: 2224.3 KB)
+0039.340 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 600 files added (on-disk size: 2224.3 KB)
+0039.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.4 MB, 149 (627) files added so far); re-opening (prior size: 2224.3 KB)
+0043.126 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 700 files added (on-disk size: 6232.3 KB)
+0044.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4 MB, 101 (728) files added so far); re-opening (prior size: 6232.3 KB)
+0045.402 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 800 files added (on-disk size: 9000.1 KB)
+0046.998 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.7 MB, 160 (888) files added so far); re-opening (prior size: 9000.1 KB)
+0047.863 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 900 files added (on-disk size: 12174.7 KB)
+0049.409 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1000 files added (on-disk size: 12174.7 KB)
+0050.001 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 159 (1047) files added so far); re-opening (prior size: 12174.7 KB)
+0051.107 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1100 files added (on-disk size: 12348.9 KB)
+0052.641 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1200 files added (on-disk size: 12348.9 KB)
+0052.995 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 186 (1233) files added so far); re-opening (prior size: 12348.9 KB)
+0054.207 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1300 files added (on-disk size: 13414.3 KB)
+0055.050 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1400 files added (on-disk size: 13414.3 KB)
+0055.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.7 MB, 258 (1491) files added so far); re-opening (prior size: 13414.3 KB)
+0057.336 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1500 files added (on-disk size: 16822.1 KB)
+0058.383 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1600 files added (on-disk size: 16822.1 KB)
+0059.572 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1700 files added (on-disk size: 16822.1 KB)
+0059.992 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 249 (1740) files added so far); re-opening (prior size: 16822.1 KB)
+0060.904 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1800 files added (on-disk size: 17058.9 KB)
+0061.746 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 1900 files added (on-disk size: 17058.9 KB)
+0062.611 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2000 files added (on-disk size: 17058.9 KB)
+0063.052 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 286 (2026) files added so far); re-opening (prior size: 17058.9 KB)
+0065.263 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2100 files added (on-disk size: 17215 KB)
+0065.996 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.3 MB, 114 (2140) files added so far); re-opening (prior size: 17215 KB)
+0068.441 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2200 files added (on-disk size: 20653.5 KB)
+0069.864 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2300 files added (on-disk size: 20653.5 KB)
+0069.994 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.1 MB, 177 (2317) files added so far); re-opening (prior size: 20653.5 KB)
+0071.229 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2400 files added (on-disk size: 21958.6 KB)
+0071.997 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2500 files added (on-disk size: 21958.6 KB)
+0072.744 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2600 files added (on-disk size: 21958.6 KB)
+0072.992 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 317 (2634) files added so far); re-opening (prior size: 21958.6 KB)
+0074.064 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2700 files added (on-disk size: 22180.2 KB)
+0074.836 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2800 files added (on-disk size: 22180.2 KB)
+0075.563 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 2900 files added (on-disk size: 22180.2 KB)
+0075.996 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 327 (2961) files added so far); re-opening (prior size: 22180.2 KB)
+0076.682 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3000 files added (on-disk size: 22350.4 KB)
+0077.518 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3100 files added (on-disk size: 22350.4 KB)
+0078.385 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3200 files added (on-disk size: 22350.4 KB)
+0079.115 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 311 (3272) files added so far); re-opening (prior size: 22350.4 KB)
+0080.454 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3300 files added (on-disk size: 23159.9 KB)
+0082.000 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.9 MB, 118 (3390) files added so far); re-opening (prior size: 23159.9 KB)
+0083.050 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3400 files added (on-disk size: 26102.8 KB)
+0085.026 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 48 (3438) files added so far); re-opening (prior size: 26102.8 KB)
+0087.784 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3500 files added (on-disk size: 26986.2 KB)
+0088.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 89 (3527) files added so far); re-opening (prior size: 26986.2 KB)
+0090.377 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3600 files added (on-disk size: 27815.3 KB)
+0091.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 98 (3625) files added so far); re-opening (prior size: 27815.3 KB)
+0092.783 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3700 files added (on-disk size: 28256.6 KB)
+0094.093 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.7 MB, 114 (3739) files added so far); re-opening (prior size: 28256.6 KB)
+0098.584 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3800 files added (on-disk size: 33724.5 KB)
+0098.992 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 87 (3826) files added so far); re-opening (prior size: 33724.5 KB)
+0101.990 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 74 (3900) files added so far); re-opening (prior size: 35204.4 KB)
+0102.372 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 3900 files added (on-disk size: 35514.5 KB)
+0104.006 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.tmp: 4000 files added (on-disk size: 35514.5 KB)
+0105.486 (0) Creating zip file manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.list-temp.tmp)
+0105.541 (0) Successfully created zip file manifest (size: 296419)
+0106.072 (0) Created themes zip (0) - 37627.9 KB in 80.9 s (465.2 KB/s) (sha1: 46ebbe90ca87ba2d6f58557ce3a60bc37381afb1, sha256: d393a891a36f4e569489e227b406ebd111696df602268f94ac7528a0fd46d984)
+0106.083 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0106.086 (0) Looking for candidates to backup in: C:\Users\Usuario\Local Sites\rotvps\app\public/wp-content/uploads
+0106.089 (0) finding files: 2021: adding to list (1)
+0106.092 (0) finding files: 2022: adding to list (2)
+0106.095 (0) finding files: elementor: adding to list (3)
+0106.098 (0) finding files: wpcf7_uploads: adding to list (4)
+0106.100 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0106.182 (0) Total entities for the zip file: 8 directories, 182 files (0 skipped as non-modified), 7.6 MB
+0106.816 (0) Zip: backup_2022-07-26-0957_RotVPS_2101cc914ba6-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0107.402 (0) Creating zip file manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-uploads.zip.list-temp.tmp)
+0107.408 (0) Successfully created zip file manifest (size: 9725)
+0107.516 (0) Created uploads zip (0) - 7653.4 KB in 1.4 s (5427.1 KB/s) (sha1: 275810ae908cc336089d60a3ab0531b3d6d1ef55, sha256: 9fca22360700e1dfbd5b88308d78dbab062aaf41a8db2bf0602f0a541e6c8fb5)
+0107.528 (0) Beginning backup of other directories found in the content directory (index: 0)
+0107.531 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0107.534 (0) Looking for candidates to backup in: C:\Users\Usuario\Local Sites\rotvps\app\public/wp-content
+0107.537 (0) finding files: index.php: adding to list (1)
+0107.540 (0) finding files: plugins: skipping: this is the plugins directory
+0107.543 (0) finding files: themes: skipping: this is the themes directory
+0107.548 (0) finding files: updraft: skipping: this is the updraft directory
+0107.552 (0) finding files: upgrade: skipping: excluded by options
+0107.555 (0) finding files: uploads: skipping: this is the uploads directory
+0107.566 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0107.600 (0) Creating zip file manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-others.zip.list-temp.tmp)
+0107.604 (0) Successfully created zip file manifest (size: 43)
+0107.618 (0) Created others zip (0) - 0.1 KB in 0.1 s (2.5 KB/s) (sha1: 8bef1ffb3589f922b6ea7b3552ed385d91ac06b2, sha256: 1e939a5a73c3cc1320fc701a1e4f85c0141149aa386da9c489acf33ddc88b612)
+0107.633 (0) Saving backup status to database (elements: 8)
+0107.639 (0) Beginning creation of database dump (WordPress DB)
+0107.643 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0107.746 (0) Table wp_options: Total expected rows (via COUNT): 270
+0107.750 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.868 (0) Table wp_options: Rows added in this batch (next record: 779): 266 (uncompressed bytes in this segment=2650678) in 0.17 seconds
+0107.889 (0) Table wp_options: finishing file(s) (2, 451.8 KB)
+0107.907 (0) Table wp_users: Total expected rows (via COUNT): 1
+0107.911 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.920 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1386) in 0.02 seconds
+0107.936 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0107.951 (0) Table wp_usermeta: Total expected rows (via COUNT): 22
+0107.954 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.959 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 22 (uncompressed bytes in this segment=5427) in 0.01 seconds
+0107.976 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0107.997 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0108.004 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.02 seconds
+0108.020 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0108.032 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0108.039 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1722) in 0.01 seconds
+0108.054 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0108.069 (0) Table wp_links: Total expected rows (via COUNT): 0
+0108.073 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0108.088 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0108.217 (0) Table wp_postmeta: Total expected rows (approximate): 1023
+0108.498 (0) Table wp_postmeta: Rows added in this batch (next record: 1207): 1020 (uncompressed bytes in this segment=7730387) in 0.40 seconds
+0108.519 (0) Table wp_postmeta: finishing file(s) (2, 847.5 KB)
+0108.569 (0) Table wp_posts: Total expected rows (via COUNT): 175
+0108.573 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.659 (0) Table wp_posts: Rows added in this batch (next record: 738): 175 (uncompressed bytes in this segment=1131147) in 0.13 seconds
+0108.679 (0) Table wp_posts: finishing file(s) (2, 33.5 KB)
+0108.705 (0) Table wp_term_relationships: Total expected rows (approximate): 18
+0108.714 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=957) in 0.01 seconds
+0108.729 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0108.746 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 9
+0108.748 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.756 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1239) in 0.02 seconds
+0108.773 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0108.793 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0108.799 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.02 seconds
+0108.817 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0108.831 (0) Table wp_terms: Total expected rows (via COUNT): 9
+0108.835 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.844 (0) Table wp_terms: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=993) in 0.02 seconds
+0108.858 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0108.874 (0) Table wp_e_events: Total expected rows (via COUNT): 11
+0108.878 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.884 (0) Table wp_e_events: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=3265) in 0.02 seconds
+0108.900 (0) Table wp_e_events: finishing file(s) (2, 0.8 KB)
+0108.923 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 2
+0108.926 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.931 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=4881) in 0.02 seconds
+0108.948 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.3 KB)
+0108.963 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 2
+0108.971 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=830) in 0.01 seconds
+0108.986 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0109.002 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0109.005 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0109.016 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1240) in 0.02 seconds
+0109.034 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0109.052 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0109.060 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0109.076 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0109.099 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 17
+0109.102 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0109.113 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=2870) in 0.02 seconds
+0109.130 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.8 KB)
+0109.138 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_options.table.tmpr780.gz (1/18/fopen): adding to final database dump
+0109.175 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_options.table.gz (2/18/fopen): adding to final database dump
+0109.178 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_users.table.tmpr2.gz (3/18/fopen): adding to final database dump
+0109.182 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_users.table.gz (4/18/fopen): adding to final database dump
+0109.185 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_usermeta.table.tmpr24.gz (5/18/fopen): adding to final database dump
+0109.189 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_usermeta.table.gz (6/18/fopen): adding to final database dump
+0109.192 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_commentmeta.table.tmpr0.gz (7/18/fopen): adding to final database dump
+0109.195 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_commentmeta.table.gz (8/18/fopen): adding to final database dump
+0109.198 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_comments.table.tmpr0.gz (9/18/fopen): adding to final database dump
+0109.202 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_comments.table.gz (10/18/fopen): adding to final database dump
+0109.206 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_links.table.tmpr0.gz (11/18/fopen): adding to final database dump
+0109.210 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_links.table.gz (12/18/fopen): adding to final database dump
+0109.214 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_postmeta.table.tmpr1208.gz (13/18/fopen): adding to final database dump
+0109.273 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_postmeta.table.gz (14/18/fopen): adding to final database dump
+0109.276 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_posts.table.tmpr739.gz (15/18/fopen): adding to final database dump
+0109.285 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_posts.table.gz (16/18/fopen): adding to final database dump
+0109.289 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_term_relationships.table.tmpr100001.gz (17/18/fopen): adding to final database dump
+0109.292 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_term_relationships.table.gz (18/18/fopen): adding to final database dump
+0109.296 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_term_taxonomy.table.tmpr10.gz (19/18/fopen): adding to final database dump
+0109.300 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_term_taxonomy.table.gz (20/18/fopen): adding to final database dump
+0109.303 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_termmeta.table.tmpr0.gz (21/18/fopen): adding to final database dump
+0109.306 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_termmeta.table.gz (22/18/fopen): adding to final database dump
+0109.309 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_terms.table.tmpr10.gz (23/18/fopen): adding to final database dump
+0109.312 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_terms.table.gz (24/18/fopen): adding to final database dump
+0109.315 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_e_events.table.tmpr12.gz (25/18/fopen): adding to final database dump
+0109.318 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_e_events.table.gz (26/18/fopen): adding to final database dump
+0109.321 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_indexable.table.tmpr3.gz (27/18/fopen): adding to final database dump
+0109.326 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_indexable.table.gz (28/18/fopen): adding to final database dump
+0109.330 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (29/18/fopen): adding to final database dump
+0109.334 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_indexable_hierarchy.table.gz (30/18/fopen): adding to final database dump
+0109.338 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_migrations.table.tmpr24.gz (31/18/fopen): adding to final database dump
+0109.342 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_migrations.table.gz (32/18/fopen): adding to final database dump
+0109.345 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_primary_term.table.tmpr0.gz (33/18/fopen): adding to final database dump
+0109.348 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_primary_term.table.gz (34/18/fopen): adding to final database dump
+0109.352 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_seo_links.table.tmpr18.gz (35/18/fopen): adding to final database dump
+0109.355 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db-table-wp_yoast_seo_links.table.gz (36/18/fopen): adding to final database dump
+0109.401 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db.gz: finished writing out complete database file (1343.3 KB)
+0109.450 (0) Total database tables backed up: 18 (backup_2022-07-26-0957_RotVPS_2101cc914ba6-db.gz, size: 1375637, sha1: 521ca2722c4f7c4f302881145a53e9d3974c4d9e, sha256: 475c5e8030cb15d68fd079a7325fe8c6e028ddd63442d5b0a8ab2ca07f3d2346)
+0109.468 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0109.472 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0109.475 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0109.479 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0109.483 (0) backup_2022-07-26-0957_RotVPS_2101cc914ba6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0109.487 (0) Saving backup history. Total backup size: 65.9 MB
+0109.497 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0109.511 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0109.515 (0) No remote despatch: user chose no remote backup service
+0109.519 (0) Recording as successfully uploaded: backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip
+0109.526 (0) Deleting zip manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-plugins.zip.list.tmp)
+0109.529 (0) Recording as successfully uploaded: backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip
+0109.536 (0) Deleting zip manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-themes.zip.list.tmp)
+0109.540 (0) Recording as successfully uploaded: backup_2022-07-26-0957_RotVPS_2101cc914ba6-uploads.zip
+0109.549 (0) Deleting zip manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-uploads.zip.list.tmp)
+0109.554 (0) Recording as successfully uploaded: backup_2022-07-26-0957_RotVPS_2101cc914ba6-others.zip
+0109.563 (0) Deleting zip manifest (backup_2022-07-26-0957_RotVPS_2101cc914ba6-others.zip.list.tmp)
+0109.567 (0) Recording as successfully uploaded: backup_2022-07-26-0957_RotVPS_2101cc914ba6-db.gz
+0109.581 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0109.585 (0) Number of backup sets in history: 1; groups (db): 1
+0109.588 (0) Examining (for databases) backup set with group_id=0, nonce=2101cc914ba6, datestamp=1658829445 (Jul 26 2022 09:57:25)
+0109.592 (0) This backup set is the backup set just made, so will not be deleted.
+0109.592 (0) Number of backup sets in history: 1; groups (files): 1
+0109.595 (0) Examining (for files) backup set with nonce=2101cc914ba6, datestamp=1658829445 (Jul 26 2022 09:57:25)
+0109.595 (0) This backup set is the backup set just made, so will not be deleted.
+0109.599 (0) This backup set is the backup set just made, so will not be deleted.
+0109.599 (0) This backup set is the backup set just made, so will not be deleted.
+0109.600 (0) This backup set is the backup set just made, so will not be deleted.
+0109.600 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0109.604 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0109.613 (0) Resume backup (2101cc914ba6, 0): finish run
+0109.623 (0) Decremented the semaphore (fd) by 1
+0109.629 (0) Semaphore (fd) unlocked
+0109.632 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0109.643 (0) No email will/can be sent - the user has not configured an email address.
+0109.647 (0) The backup apparently succeeded and is now complete
