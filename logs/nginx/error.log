@@ -1,0 +1,2 @@
+2022/07/21 13:32:13 [error] 9272#4856: *9460 WSARecv() failed (10054: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-admin/admin-ajax.php?action=rest-nonce HTTP/1.0", upstream: "fastcgi://127.0.0.1:10008", host: "rotvps.local", referrer: "http://rotvps.local/wp-admin/post.php?post=65&action=edit"
+2022/07/26 11:01:09 [alert] 4048#4100: OpenEvent("ngx_master_2176") failed (2: FormatMessage() error:(15100))
